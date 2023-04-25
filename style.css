@@ -1,0 +1,106 @@
+
+body {
+    background-image: url('images/image.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+
+h1 {
+    color: white;
+    text-align: center; 
+    border: none;
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+}
+
+h3 {
+    color: rgb(253, 250, 250);
+    font-weight: bold;
+    vertical-align: middle;
+    position: absolute;
+    bottom: 0; 
+    left: 40%;
+}
+
+.animate__animated.animate__shakeX {
+    --animate-duration: 30s;
+}
+
+i {
+    color: rgb(188, 101, 115);
+    size: 30;
+    font-size: 30px;
+}
+
+.botao {
+    text-decoration: none;
+    background-color: grey;
+    padding: 5px;
+    color:rgb(27, 25, 25);  
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+}
+
+.botao:hover {
+    opacity: .7;
+    transform: scale(1.2);
+}
+
+.quote { 
+    font-style: italic;
+    color: white;
+    display:table;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 10;
+    
+  }
+  
+.quote .source {
+    text-align:right;
+    color: white;
+    line-height: 30px;
+    font-style: normal;
+}
+
+ul li a i {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    color:rgb(118, 73, 1);
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10;
+}
+
+.topRight a i {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color:rgb(237, 157, 28);
+    font-size: 20px;
+}
+
+.topLRight a i {
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    color:rgb(237, 157, 28);
+    font-size: 20px;
+}
+
+/* mudar posição de texto dependendo 
+do tamanho do ecrã */
+@media (max-width: 640px) {
+    body{
+        text-align: center;
+    }
+
+
+}
